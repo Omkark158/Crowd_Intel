@@ -1,0 +1,315 @@
+/* Apply Poppins to the whole website */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ensure headers and buttons also use Poppins */
+h1, h2, h3, p, a, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Faint border */
+    padding-bottom: 40px; /* Adds spacing before the border */
+    margin-bottom: 40px; /* Adds spacing between sections */
+}
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* .hero {
+    background: url('./images/pexels-photo-25391056.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* Aligns with the left edge of "Crowd Intel" */
+    /* color: black; */
+    /* text-shadow: 1px 1px 10px rgba(0,0,0,0.6); 
+ 
+
+} */
+
+.hero {
+    background: url('./images/pexels-photo-25391056.jpeg') no-repeat center 30% / cover;
+    height: 90vh; /* Further increased height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Keeps text aligned to the left */
+    padding-left: 10%;
+    color: black;
+    position: relative;
+    width: 100%;
+    padding-left: 3.5%;
+    font-weight: 600;
+}
+
+
+
+.hero-content {
+    max-width: 50%;
+    text-align: left; /* Align text to the left */
+    top:-20px;
+}
+
+.cta-btn {
+    display: block;
+    margin-top: 20px; /* Space below the paragraph */
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #218838;
+}
+
+.container{
+    font-weight: 600;
+    font-size: medium;
+}
+
+
+
+.features-container {
+    display: flex;
+    align-items: center; /* Vertically aligns image & features */
+    justify-content: space-between; /* Ensures proper spacing */
+    gap: 40px;
+    padding: 40px;
+}
+
+.feature-card img {
+    width: 10%; /* Sets the image width to 10% of the card's width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto 10px auto; /* Centers the image and adds spacing below */
+}
+
+
+.features-image {
+    width: 40%; /* Keeps width balanced */
+    max-width: 500px; /* Prevents it from getting too large */
+    height: 550x; /* Maintain aspect ratio */
+    max-height: 700px; /* Increase vertical size */
+    object-fit: cover; /* Ensures it fills the space properly */
+    border-radius: 10px;
+}
+
+
+.feature-grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+    gap: 20px;
+    align-self: center; /* Aligns features section properly */
+}
+
+
+
+.feature-card, .service-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.feature-card:hover, .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-grid {
+    display: flex;
+    justify-content: center; /* Centers the services */
+    align-items: center;
+    gap: 50px; /* Spacing between service cards */
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.service-card {
+    width: 22%; /* Adjust width to make it smaller */
+    text-align: center;
+    padding: 15px;
+    min-width: 200px; /* Prevents cards from becoming too small */
+}
+
+.service-card:first-child {
+    margin-left: 20px; 
+}
+
+.service-card img {
+    width: 20px; /* Sets a fixed width */
+    height: 20px; /* Sets a fixed height */
+    object-fit: contain; /* Ensures the entire image fits within the specified dimensions */
+    display: block;
+    margin: 0 auto 10px auto; /* Centers the image and adds spacing below */
+}
+
+
+.auth-section {
+    padding: 40px;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: white;
+    color: #007bff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ddd;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* ===== Signup & Login Page Styles ===== */
+
+/* Apply styles only to Signup & Login pages */
+.auth-page {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form container (Ensures everything is centered properly) */
+.auth-page .form-container {
+    width: 400px; /* Increased width for balance */
+    max-width: 90%;
+    background: white;
+    padding: 40px 35px; /* Increased padding for even spacing */
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Headings */
+.auth-page h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+/* Input fields (Now perfectly centered) */
+.auth-page input {
+    width: 100%; /* Full width inside container */
+    padding: 14px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+    text-align: left; /* Ensures text starts from left */
+    box-sizing: border-box; /* Prevents breaking layout */
+}
+
+/* Input focus effect */
+.auth-page input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Buttons */
+.auth-page button {
+    width: 100%; /* Matches input field width */
+    padding: 14px;
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.auth-page button:hover {
+    background: #0056b3;
+}
+
+/* Links */
+.auth-page p {
+    color: #555;
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.auth-page p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.auth-page p a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
